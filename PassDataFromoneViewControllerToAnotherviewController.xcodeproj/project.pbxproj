@@ -14,6 +14,7 @@
 		F15E75C4209C259B00B42672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E75C2209C259B00B42672 /* LaunchScreen.storyboard */; };
 		F15E75CF209C259B00B42672 /* PassDataFromoneViewControllerToAnotherviewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E75CE209C259B00B42672 /* PassDataFromoneViewControllerToAnotherviewControllerTests.swift */; };
 		F15E75DA209C259B00B42672 /* PassDataFromoneViewControllerToAnotherviewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E75D9209C259B00B42672 /* PassDataFromoneViewControllerToAnotherviewControllerUITests.swift */; };
+		F15E75E8209C26DB00B42672 /* passdatatonextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E75E7209C26DB00B42672 /* passdatatonextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F15E75D5209C259B00B42672 /* PassDataFromoneViewControllerToAnotherviewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassDataFromoneViewControllerToAnotherviewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15E75D9209C259B00B42672 /* PassDataFromoneViewControllerToAnotherviewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDataFromoneViewControllerToAnotherviewControllerUITests.swift; sourceTree = "<group>"; };
 		F15E75DB209C259B00B42672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15E75E7209C26DB00B42672 /* passdatatonextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passdatatonextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				F15E75B9209C259B00B42672 /* AppDelegate.swift */,
 				F15E75BB209C259B00B42672 /* ViewController.swift */,
+				F15E75E7209C26DB00B42672 /* passdatatonextView.swift */,
 				F15E75BD209C259B00B42672 /* Main.storyboard */,
 				F15E75C0209C259B00B42672 /* Assets.xcassets */,
 				F15E75C2209C259B00B42672 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15E75E8209C26DB00B42672 /* passdatatonextView.swift in Sources */,
 				F15E75BC209C259B00B42672 /* ViewController.swift in Sources */,
 				F15E75BA209C259B00B42672 /* AppDelegate.swift in Sources */,
 			);
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = PassDataFromoneViewControllerToAnotherviewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.PassDataFromoneViewControllerToAnotherviewController;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = PassDataFromoneViewControllerToAnotherviewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.PassDataFromoneViewControllerToAnotherviewController;
